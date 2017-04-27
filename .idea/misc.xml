@@ -43,8 +43,8 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\shuo.wang\AppData\Roaming\Subversion</configuration>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="masterDetails">
     <states>
