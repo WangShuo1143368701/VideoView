@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 
 import java.io.IOException;
 
-public class CameraTextureActivity extends AppCompatActivity implements TextureView.SurfaceTextureListener {
+public class CameraTextureActivity extends AppCompatActivity implements TextureView.SurfaceTextureListener,Camera.PreviewCallback{
 
     private TextureView myTexture;
     private Camera mCamera;
@@ -37,6 +37,7 @@ public class CameraTextureActivity extends AppCompatActivity implements TextureV
             mCamera.setPreviewTexture(arg0);
         } catch (IOException t) {
         }
+        mCamera.setPreviewCallback(this);
         mCamera.startPreview();
         myTexture.setAlpha(1.0f);
         myTexture.setRotation(90.0f);
@@ -55,6 +56,11 @@ public class CameraTextureActivity extends AppCompatActivity implements TextureV
     @Override
     public void onSurfaceTextureUpdated(SurfaceTexture arg0) {
         // TODO Auto-generated method stub
+    }
+
+    @Override
+    public void onPreviewFrame(byte[] bytes, Camera camera) {
+
     }
 }
 

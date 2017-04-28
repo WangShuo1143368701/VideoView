@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/VideoView.iml" filepath="$PROJECT_DIR$/VideoView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediacodecdemo/mediacodecdemo.iml" filepath="$PROJECT_DIR$/mediacodecdemo/mediacodecdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediaprojectionmediamuxer/mediaprojectionmediamuxer.iml" filepath="$PROJECT_DIR$/mediaprojectionmediamuxer/mediaprojectionmediamuxer.iml" />
     </modules>
   </component>
